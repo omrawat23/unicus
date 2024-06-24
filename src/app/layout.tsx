@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'  
 import './globals.css'
-import Navbar from '@/components/Navbar'
-import { Toaster } from '@/components/ui/toaster'
-import Providers from '@/components/Providers'
-import { constructMetadata } from '@/lib/utils'
+import Navbar from '@/app/components/Navbar'
+import { Toaster } from '@/app/components/ui/toaster'
+import Providers from '@/app/components/Providers'
+import { constructMetadata } from '@/app/lib/utils'
 
 
 const poppins = Poppins({ 
