@@ -8,7 +8,7 @@ const Footer = () => {
           <h2 className='text-lg font-semibold mb-2'>Get to know more about us</h2>
           <p className='text-sm mb-4'>Reach out to us to know more about our services.</p>
           <img src='/logo.png' alt='Flib' className='h-12 mb-2 mt-8' />
-          <p className='text-sm text-gray-600 mb-1'>hassle free swags</p>
+          <p className='text-sm text-gray-600 mb-1'></p>
           <p className='text-sm text-gray-600'>&copy; 2024 Unicus olympiads. All rights reserved</p>
         </div>
 

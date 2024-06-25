@@ -22,7 +22,7 @@ const Marquee: React.FC = () => {
         <div className="marquee-content flex">
           {clients.concat(clients).map((client, index) => (
             <div key={index} className="mx-4 text-center">
-              <img src={client.src} width={100} height={100} alt={client.alt} className="h-24 w-auto mx-auto" />
+              <Image src={client.src} width={100} height={100} alt={client.alt} className="h-24 w-auto mx-auto" />
               <p className="text-sm font-semibold mt-2">{client.alt}</p>
             </div>
           ))}
