@@ -2,17 +2,18 @@ import React from 'react';
 import Image from 'next/image';
 
 const clients = [
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Alpha_International_School.png', alt: 'Alpha International School' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Colonels_Central_Academy.png', alt: 'Colonel\'s Central Academy' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Cambridge_Int.png', alt: 'Cambridge Int School' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Bal_Bharati_Public_School.png', alt: 'Bal Bharati Public School' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/DE_PAUL_SCHOOL.png', alt: 'De Paul School' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Alpha_International_School.png', alt: 'Alpha International School' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Colonels_Central_Academy.png', alt: 'Colonel\'s Central Academy' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Cambridge_Int.png', alt: 'Cambridge Int School' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/Bal_Bharati_Public_School.png', alt: 'Bal Bharati Public School' },
-  { src: 'https://www.crestolympiads.com/assets/images/school_logo/DE_PAUL_SCHOOL.png', alt: 'De Paul School' },
+  { src: '/11.png', alt: 'Alpha International School' },
+  { src: '/12.png', alt: 'Colonel\'s Central Academy' },
+  { src: '/13.png', alt: 'Cambridge Int School' },
+  { src: '/14.png', alt: 'Bal Bharati Public School' },
+  { src: '/15.png', alt: 'DePaul Int School' },
+  { src: '/11.png', alt: 'Alpha International School' },
+  { src: '/12.png', alt: 'Colonel\'s Central Academy' },
+  { src: '/13.png', alt: 'Cambridge Int School' },
+  { src: '/14.png', alt: 'Bal Bharati Public School' },
+  { src: '/15.png', alt: 'DePaul Int School' },
 ];
+
 
 const Marquee: React.FC = () => {
   return (

@@ -32,8 +32,8 @@ const Questions = () => {
     <div className="w-full flex justify-center items-center p-0 px-[64px] gap-[10px] min-h-screen">
       <div className="w-full max-w-[1312px] h-auto">
         <header className='text-center'>
-          <button className='sm-button mb-[8px]'>FAQs</button>
-          <h2 className="header-1 mb-10 text-center">Do You Have A Question?</h2>
+          {/* <button className='sm-button mb-[8px]'>FAQs</button> */}
+          <h2 className="text-center text-4xl mb-12 font-extrabold text-gray-700 leading-tight tracking-wide">Do You Have A Question?</h2>
         </header>
         {faqs.map((faq, index) => (
           <div
